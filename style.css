@@ -1,0 +1,69 @@
+@font-face {
+	font-family: Jura-Light;
+	src: url(Jura-Light.otf);
+}
+
+@font-face {
+	font-family: Gilroy;
+	src: url(gilroy-extrabold);
+}
+
+html, body {
+	font-family: Jura-Light;
+	background-color: #EFEFEF;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+p {
+	font-size: 1rem;
+}
+
+img {
+	height: 354px;
+	opacity: 0.9;
+	border-radius: 10%;
+}
+
+a {
+	text-decoration: none;
+	color: #e60000;
+	transition: 1s;
+}
+
+a:hover {
+	color: blue;
+}
+
+.main-container {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+
+    width: 700px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -200px auto auto -350px;
+}
+
+.image-container {
+	padding: 20px;
+}
+
+.message-container {
+	padding: 20px;
+	max-width: 400px;
+}
+
+.greeting {
+	font-family: Gilroy;
+	text-decoration: bold; 
+}
+
