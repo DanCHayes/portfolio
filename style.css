@@ -29,12 +29,11 @@ img {
 	height: 354px;
 	opacity: 0.9;
 	border-radius: 10%;
-
+	transition: border-radius 1s;
 }
 
 img:hover {
 	border-radius: 20%;
-	transition: all 2s;
 }
 
 a {
